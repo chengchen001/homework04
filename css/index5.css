@@ -1,0 +1,143 @@
+.top{
+    background-color: #FFF;
+    border: none;
+    margin-bottom: 0;
+}
+#a:hover{
+    color: #2dae36;
+    text-decoration: none;
+    border-bottom: 2px solid #2dae36;
+}
+.nav{
+    padding-top: 15px;
+}
+.nav>li>a{
+    display: block;
+    height: 65px;
+}
+.navbar-brand{
+    width: 280px;
+    background: url("../images4/logo0.png") no-repeat center center;
+    height: 80px;
+}
+@media (max-width:768px){
+    .navbar-brand{
+        height: 40px;
+        width: 40px;
+        margin-left: 5%;
+        background: url("../images4/logo1.png") no-repeat center center;
+        background-size: 100%;
+    }
+}
+@media (min-width:768px) and (max-width:992px){
+    .navbar-brand{
+        height: 60px;
+        width: 60px;
+        background: url("../images4/logo1.png") no-repeat center center;
+        background-size: 100%;
+    }
+}
+.qyjs{
+    line-height: 100px;
+    text-align: center;
+    font-size: 25px;
+}
+.row>div>div>img{
+    width: 40%;
+    height: 40%;
+}
+.row{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 0 0 30px 0;
+}
+.row>div>div{
+    display: inline-flex;
+    justify-content: center;
+}
+.title{
+    font-size: 20px;
+    color: #2dae36;
+}
+.product .product_title {
+    height: 42px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #2dae36;
+}
+.product .product_title .show {
+    width: 120px;
+    color: white;
+    font-size: 20px;
+    line-height: 42px;
+    text-align: center;
+    background: #2dae36;
+    border-radius: 16px 0 16px 0;
+}
+.show {
+    display: block!important;
+}
+.cpzs>div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cpzs>div>img{
+    width: 99%;
+    height: 99%;
+    margin-top: 7%;
+}
+.bottom{
+    padding-top: 35px;
+    box-sizing: border-box;
+    background-color: #ddd;
+    text-align: center;
+    color: #666;
+}
+.bottom-1{
+    width: 80%;
+}
+.row>div>a{
+    color: black;
+}
+.row>div>a:hover{
+    color: #2dae36;
+}
+.product{
+    padding: 30px 0;
+}
+.container-1{
+    width: 80%;
+    padding-bottom: 40px;
+}
+.jj{
+    text-align: left;
+    font-size: 15px;
+    text-indent: 2em;
+}
+.logo3{
+    width: 100px;
+    height: 80px;
+}
+.row-2{
+    line-height: 130px;
+    font-size: 30px;
+}
+.row-3{
+    line-height: 40px;
+    border-left: 1px solid #2dae36;
+}
+.row-3>p{
+    text-align: left;
+}
+.container-2{
+    margin-top: -30px;
+}
+.ditu{
+    border: 1px solid #2dae36;
+    width: 100%;
+}
+.row>div>p>i{
+    font-size: 30px;
+    color: #2dae36;
+}

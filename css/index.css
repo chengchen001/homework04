@@ -1,0 +1,121 @@
+.nav2 {
+    background: #fff;
+    border: none;
+}
+.nav {
+    margin-top: 10px;
+}
+#a:hover{
+    color: aqua;
+    text-decoration: none;
+    border-bottom: 2px solid aqua;
+}
+.navbar-brand{
+    width: 280px;
+    height: 80px;
+    background: url("../images/logo0.png") no-repeat center center;
+}
+@media (max-width:768px){
+    .navbar-brand{
+        width: 40px;
+        height: 40px;
+        background: url("../images/logo1.png") no-repeat center center;
+        background-size: 100%;
+    }
+}
+@media (min-width:768px) and (max-width:992px){
+    .navbar-brand{
+        width: 60px;
+        height: 80px;
+        background: url("../images/logo1.png") no-repeat center center;
+        background-size: 100%;
+    }
+}
+.mx_width {
+    padding-left: 10%;
+    padding-right: 10%;
+    box-sizing: border-box;
+}
+.mx_center {
+    margin-left: auto;
+    margin-right: auto;
+}
+div {
+    display: block;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.show {
+    display: block!important;
+}
+.product .product_title .show {
+    width: 120px;
+    color: white;
+    font-size: 20px;
+    line-height: 42px;
+    text-align: center;
+    background: #2dae36;
+    border-radius: 16px 0 16px 0;
+}
+.product .product_title {
+    height: 42px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #2dae36;
+}
+.product_list .row>div {
+    position: relative;
+    padding: 15px;
+    box-sizing: border-box;
+}
+.now>div>div>img{
+     width: 30%;
+     height: 30%;
+}
+.now {
+    margin-left: auto;
+    margin-right: auto;
+}
+.footer .footer_logo img {
+    width: 100px;
+}
+img {
+    vertical-align: middle;
+}
+.footer a {
+    color: #777;
+    text-align: center;
+    text-decoration: none;
+}
+.footer {
+    padding-top: 24px;
+    padding-bottom: 16px;
+    box-sizing: border-box;
+    background-color: #ddd;
+    text-align: center;
+    color: #666;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+}
+#saoma {
+    position: fixed;
+    right: 0;
+    bottom: 150px;
+    z-index: 100;
+}
+.footer_logo{
+    margin-top: 30px;
+}
+.one {
+    margin-top: 30px;
+}
+.footer_logo>img{
+    width: 63px;
+    height: 74px;
+}
